@@ -1,0 +1,92 @@
+
+body{
+    background: no-repeat;
+    background-image: url(qoipqi.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    
+    
+}
+
+.divCadastro{
+    background-color: rgba(255, 255, 255, 0.116);
+    backdrop-filter: blur(10px);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    height: 190px;
+    width: 1200px;
+    
+
+}
+
+
+.nomeDoCurso{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+
+
+    margin-top: 100px;
+    
+    
+}
+
+.textoPrincipal {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.titulo{
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+.barra {
+    padding: 20px 20px;
+    
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    font-size: 30px;
+
+  }
+
+.botao {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: 450px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 29px;
+    border-radius: 50px;
+    border: solid white;
+    height: 80px;
+    width: 180px;
+    left: 45%; /*posiciona no meio horizontalmente*/
+    transition: 0.4s;
+}
+
+.botao:hover{
+    box-shadow: 0px 0px 25px rgba(20, 20, 20, 0.801);
+    height: 85px;
+    width: 187px;
+    margin-left: -3px;
+    
+}
